@@ -10,6 +10,7 @@ Key Features:
 - Modular Inference — Swap models (YOLOv8n vs YOLOv8x weights) without changing the prediction script
 
 Results:
+Both models were trained for 100 epochs on a T4 GPU (Google Colab).
 - Training loss for box, classification, and DFL all show a consistent downward trend across epochs, indicating stable learning without overfitting
 - Validation losses remain low and stable throughout, confirming good generalization to unseen data
 - Precision and recall are high for both models, with YOLOv8x outperforming YOLOv8n across all detection metrics
