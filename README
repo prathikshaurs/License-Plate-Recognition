@@ -1,0 +1,2 @@
+This project tackles the accurate detection and recognition of vehicle license plates across varied lighting conditions, angles, and plate designs — with applications in traffic management, law enforcement, parking automation, and toll collection.
+The pipeline uses YOLOv8 for anchor-based bounding box detection and EasyOCR for alphanumeric character extraction from detected plate regions. Two YOLOv8 variants (YOLOv8n and YOLOv8x) were trained and benchmarked side-by-side to evaluate the speed-accuracy tradeoff.
